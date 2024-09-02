@@ -14,7 +14,5 @@ function mostFrequent(arr) {
 
     return mostFrequentItem;
 }
-
-// Example usage:
 let arr = [1, 2, 2, 2, 3, 3, 4];
-console.log(mostFrequent(arr));  // Output: 3
+console.log(mostFrequent(arr)); 
