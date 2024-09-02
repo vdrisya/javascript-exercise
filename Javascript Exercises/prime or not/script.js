@@ -13,7 +13,5 @@ function checkFirstElementPrime(arr) {
     let firstElement = arr[1];
     return isPrime(firstElement) ? `${firstElement} is a prime number.` : `${firstElement} is not a prime number.`;
 }
-
-// Example usage:
 let arr = [5, 10, 15, 20];
-console.log(checkFirstElementPrime(arr));  // Output: 5 is a prime number.
+console.log(checkFirstElementPrime(arr)); 
